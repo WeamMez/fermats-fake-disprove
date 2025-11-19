@@ -1,6 +1,8 @@
 # fermats-fake-disprove
 This code uses the 64-bit IEEE-754 limitation to **wrongly** disprove fermat's last thorem with the exponent of 3.
 
+The different versions may give different results depending on the exact arithmetic algorithms used by the compiler and the processor's architecture.
+
 ## Compiling
 
 To compile the CPU version, type `make cpu`.
